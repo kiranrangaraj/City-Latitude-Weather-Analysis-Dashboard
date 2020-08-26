@@ -65,18 +65,19 @@ html {
   
     /* Typography */
     font-family: Arial;
+    font-size: 16px;
     font-weight: bolder;
   }
   
   /* Nav element hover state */
   .navbar-default .navbar-nav > li > a:hover {
-    color: #4aaaa5;
+    color: #214f83;
   }
   
   /* Media query for nav */
   @media only screen and (max-width: 767px) {
     .navbar-header {
-      background-color: #4aaaa5;
+      background-color: rgb(205, 245, 235);
     }
   
     #logo {
@@ -97,7 +98,7 @@ html {
       color: rgb(205, 245, 235);
   
       /* Visual */
-      background: #4aaaa5;
+      background: #214f83;
     }
   }
   
@@ -162,7 +163,7 @@ html {
   
   .description-content > p {
     /* Box-model */
-    padding-top: 20px; 
+    padding-top: 10px; 
     padding-bottom: 30px;
   
     /* Typography */
@@ -173,6 +174,7 @@ html {
   
   .description-text {
     padding-bottom: 20px;
+    font-size: 16px;
     color: rgb(4, 5, 5);
   }
   
@@ -184,7 +186,8 @@ html {
     width: 200px;
     height: 200px;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
   
   /* Description content media query */
@@ -273,9 +276,6 @@ html {
   
   /* ----COMPARISON END---- */
 
-  .dataframe-table {
-    color: rgb(156, 164, 172);
-  }
   
   /* ----FOOTER START---- */
   .footer {
