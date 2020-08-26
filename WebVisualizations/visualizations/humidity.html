@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Adjust toggling of navbar for mobile displays -->
         <div class="row">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,8 +30,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="../index.html" id="logo">Latitude</a>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="../index.html" id="logo">The Impact of Latitude on Weather</a>
             </div>
           </div>
 
@@ -64,7 +64,18 @@
             <h1 class="description-header">Humidity</h1>
             <hr class="description-hr"/>
             <img src="../assets/images/latitude_vs_humidity.png" alt="" class="img-responsive"/>
-            <p>With our current analysis, it is difficult to find any obvious correlation between latittude and humidity. There is a clear band of many data points at 100% humidity, and there do seem to be strong clusters of high humidity around the equator and in some other areas (e.g. a strong band of 0% humidity at latitude > 60). Further analysis is required.</p>
+            <p>Examining the scatter plot, it is difficult to find any obvious correlation between latitude and humidity. The percentages of humidity appear to be much more clustered in a 60% or higher range as cities are located closer to the equator.</p>
+            <h2 class="description-subheader">Statistical Analysis</h2>
+            <hr class="description-hr"/>
+            <h3 class="description-subheader-sub">Northern Hemisphere</h3>
+            <img src="../assets/images/north_humidity.png" alt="" class="img-responsive"/>
+            <p>The statistical analysis for the northern hemisphere produced a low R-squared value of 0.018.</p>
+            <h3 class="description-subheader-sub">Southern Hemisphere</h3>
+            <img src="../assets/images/south_humidity.png" alt="" class="img-responsive"/>
+            <p>For the southern hemisphere, the R-squared value was only 0.0097. The nearly horizontal linear regression line additionally indicates a poor correlation between humidity percentage and latitude.</p> 
+            <h1 class="description-conclusion">Conclusion</h1>
+            <hr class="description-hr"/>
+            <p>Overall, only marginal proportions of variation in humidity can be attributed to the latitude.</p>
           </article>
         </div>
         <div class="col-md-4">

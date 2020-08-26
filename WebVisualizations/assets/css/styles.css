@@ -14,7 +14,7 @@ html {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   
     /* Visual */
-    background-color: #ededed;
+    background-color: #b4ababad;
   }
   
   /* Media query for body */
@@ -22,7 +22,7 @@ html {
     /* Set background color to white on small screens */
     body {
       /* Visual */
-      background-color: #fff;
+      background-color: rgb(205, 245, 235);
     }
   }
   
@@ -30,7 +30,7 @@ html {
   
   /* ----NAV START---- */
   .navbar-custom {
-    background-color: #fff;
+    background-color: rgb(205, 245, 235);
   }
   
   #logo {
@@ -46,16 +46,16 @@ html {
     /* Typography */
     font-size: 24px;
     font-weight: bold;
-    color: #fff;
+    color: #c6dbda;
   
     /* Visual */
-    background: #4aaaa5;
+    background: #214f83;
   }
   
   /* Logo hover state */
   #logo:hover {
     /* Visual */
-    opacity: 0.7;
+    opacity: 0.4;
   }
   
   .navbar-right-custom {
@@ -65,7 +65,7 @@ html {
   
     /* Typography */
     font-family: Arial;
-    font-weight: lighter;
+    font-weight: bolder;
   }
   
   /* Nav element hover state */
@@ -94,7 +94,7 @@ html {
       /* Typography */
       font-size: 24px;
       font-weight: bold;
-      color: #fff;
+      color: rgb(205, 245, 235);
   
       /* Visual */
       background: #4aaaa5;
@@ -104,15 +104,49 @@ html {
   /* -----NAV END---- */
   
   /* ----DESCRIPTION START---- */
+
   .description-header {
     /* Positioning */
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     font-family: Georgia, Times, "Times New Roman", serif;
   
     /* Typography */
-    font-size: 32px;
+    font-size: 42px;
     font-weight: bold;
-    color: #4aaaa5;
+    color: #c6dbda;
+  }
+
+  .description-subheader {
+    /* Positioning */
+    margin-bottom: 32px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 34px;
+    font-weight: bold;
+    color: #c6dbda;
+  }
+
+  .description-subheader-sub {
+    /* Positioning */
+    margin-bottom: 5px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #c6dbda;
+  }
+
+  .description-conclusion {
+    /* Positioning */
+    margin-bottom: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 38px;
+    font-weight: bold;
+    color: #c6dbda;
   }
   
   .description-content {
@@ -120,24 +154,26 @@ html {
     padding: 30px;
   
     /* Positioning */
-    margin-top: 32px;
+    margin-top: 24px;
   
     /* Visual */
-    background-color: #fff;
+    background-color: rgb(112, 134, 134);
   }
   
   .description-content > p {
     /* Box-model */
-    padding-top: 20px;
+    padding-top: 20px; 
+    padding-bottom: 30px;
   
     /* Typography */
     font-size: 16px;
     line-height: 30px;
-    color: slategray;
+    color: rgb(4, 5, 5);
   }
   
   .description-text {
     padding-bottom: 20px;
+    color: rgb(4, 5, 5);
   }
   
   #description-image {
@@ -171,13 +207,13 @@ html {
     width: 100%;
   
     /* Box-model */
-    padding: 30px 30px 43px;
+    padding: 43px 30px 43px;
   
     /* Positioning */
-    margin-top: 32px;
+    margin-top: 25px;
   
     /* Visual */
-    background-color: #fff;
+    background-color: rgb(112, 134, 134);
   }
   
   .imageNav-header {
@@ -188,11 +224,11 @@ html {
     /* Typography */
     font-size: 25px;
     font-weight: bold;
-    color: #4aaaa5;
+    color: #c6dbda;
   }
   
   .imageNav-photo {
-    width: 140px;
+    width: 180px;
   
     /* Box-model */
     height: 140px;
@@ -200,7 +236,7 @@ html {
   
   .imageNav-photo:hover {
     /* Visuals */
-    opacity: 0.6;
+    opacity: 0.4;
   }
   
   .imageNav-photo.active {
@@ -220,7 +256,7 @@ html {
   
   /* ----COMPARISON START---- */
   .comparison-image:hover {
-    opacity: 0.6;
+    opacity: 0.4;
   }
   
   .comparison-header {
@@ -231,11 +267,15 @@ html {
     /* Typography */
     font-size: 20px;
     font-weight: bold;
-    color: #4aaaa5;
+    color: #214f83;
     text-align: center;
   }
   
   /* ----COMPARISON END---- */
+
+  .dataframe-table {
+    color: rgb(156, 164, 172);
+  }
   
   /* ----FOOTER START---- */
   .footer {
@@ -249,15 +289,12 @@ html {
     margin-top: 30px;
   
     /* Visual */
-    background-color: #666;
+    background-color: rgb(205, 245, 235);
   }
   
   .text-muted-footer {
     /* Positioning */
     margin-top: 15px;
-  
-    /* Typography */
-    color: #fff;
   }
   
   .two-toned-footer-color {
@@ -266,7 +303,7 @@ html {
     padding-top: 3px;
   
     /* Visual */
-    background-color: #4aaaa5;
+    background-color: #214f83;
   }
   
   /* ----FOOTER END---- */

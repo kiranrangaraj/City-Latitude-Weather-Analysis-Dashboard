@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Adjust toggling of navbar for mobile displays -->
         <div class="row">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,8 +30,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="../index.html" id="logo">Latitude</a>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="../index.html" id="logo">The Impact of Latitude on Weather</a>
             </div>
           </div>
 
@@ -64,7 +64,18 @@
             <h1 class="description-header">Cloudiness</h1>
             <hr class="description-hr"/>
             <img src="../assets/images/latitude_vs_cloudiness.png" alt="" class="img-responsive"/>
-            <p>There is no strong relationship between latitude and cloudiness, however, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.</p>
+            <p>The scatter plot shows is no relationship at all between latitude and cloudiness, however, it is interesting to see that strong linear bands of cities sit at 0, 20, 40, 75, and 100% cloudiness.</p>
+            <h2 class="description-subheader">Statistical Analysis</h2>
+            <hr class="description-hr"/>
+            <h3 class="description-subheader-sub">Northern Hemisphere</h3>
+            <img src="../assets/images/north_cloudiness.png" alt="" class="img-responsive"/>
+            <p>The R-squared value for the northern hemisphere was an extremely low 0.0064.</p>
+            <h3 class="description-subheader-sub">Southern Hemisphere</h3>
+            <img src="../assets/images/south_cloudiness.png" alt="" class="img-responsive"/>
+            <p>Cities located in the southern hemisphere also produced a poor R-squared value of 0.0084.</p>
+            <h1 class="description-conclusion">Conclusion</h1>
+            <hr class="description-hr"/>
+            <p>The statistical analysis calculated how less than 1% of cloudiness can be attributed to changes in latitude. Thus, there is no relationship at all between the two variables.</p>
           </article>
         </div>
         <div class="col-md-4">

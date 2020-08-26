@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Adjust toggling of navbar for mobile displays -->
         <div class="row">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,8 +30,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="../index.html" id="logo">Latitude</a>
+            <div class="col-xs-12 phone-nav">
+              <a class="navbar-brand" href="../index.html" id="logo">The Impact of Latitude on Weather</a>
             </div>
           </div>
 
@@ -64,7 +64,18 @@
             <h1 class="description-header">Max Temperature</h1>
             <hr class="description-hr"/>
             <img src="../assets/images/latitude_vs_temp.png" alt="" class="img-responsive"/>
-            <p>As observed in the scatter plot, the maximum temperature of cities increases as they are located closer to the equator (0 Deg. Latitude). Interestingly, the cities with the highest maximum temperature are between 20 to 40 degrees latitude which could be attributed to the Earth's axis tilt in relation to the sun during the month of July, when the data was gathered from the OpenWeatherMap API. </p>
+            <p>As observed in the scatter plot, the maximum temperature of cities increases as they are located closer to the equator (0 Deg. Latitude). Interestingly, the cities with the highest maximum temperature are between 20 to 40 degrees latitude which could be attributed to the Earth's axis tilt in relation to the sun during the month of July, which is when the data was gathered from the OpenWeatherMap API.</p>
+            <h2 class="description-subheader">Statistical Analysis</h2>
+            <hr class="description-hr"/>
+            <h3 class="description-subheader-sub">Northern Hemisphere</h3>
+            <img src="../assets/images/north_temp.png" alt="" class="img-responsive"/>
+            <p>The calculated R-squared value is 0.4125 for cities located in the northern hemisphere. Thus, approximately 41.25% of the movements of temperature (dependent variable) are explained by movements in the latitude (independent variable).</p>
+            <h3 class="description-subheader-sub">Southern Hemisphere</h3>
+            <img src="../assets/images/south_temp.png" alt="" class="img-responsive"/>
+            <p>The calculated R-squared value of 0.5644 represents how approximately 56.44% of the max temperatures in the southern hemisphere are explained by global position in regards to latitude.</p> 
+            <h1 class="description-conclusion">Conclusion</h1>
+            <hr class="description-hr"/>
+            <p>Overall, the statistical analysis demonstrates how both of the hemispheres display a moderately positive correlation between max temperature and latitude.</p>
           </article>
         </div>
         <div class="col-md-4">
