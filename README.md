@@ -83,5 +83,5 @@ The website includes:
 ---
 
 ## Author ##
-Kiran Rangaraj - Vanderbilt University
-* https://www.linkedin.com/in/kiranrangaraj/
+Kiran Rangaraj - Vanderbilt University 2020
+* LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
