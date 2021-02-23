@@ -83,4 +83,5 @@ The website includes:
 ---
 
 ## Author ##
-Kiran Rangaraj - Data Analytics/Visualization - Vanderbilt University 2020
+Kiran Rangaraj - Vanderbilt University
+* https://www.linkedin.com/in/kiranrangaraj/
