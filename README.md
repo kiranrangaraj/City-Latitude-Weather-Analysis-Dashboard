@@ -10,7 +10,7 @@
 
 ## Summary ##
 
-A multipage visualization dashboard website was created using HTML5, CSS3, and Bootstrap to present the results from the Impact of Latitude on Weather Analysis project. The project had analyzed how weather changes while getting closer to the equator. To accomplish the analysis, data was pulled from the OpenWeatherMap API to assemble a [dataset](Resources/cities.csv) on over 500 cities globally.
+A multipage visualization dashboard website was created using HTML5, CSS3, and Bootstrap to present the results from the "Impact of Latitude on Weather Analysis" project. The project had analyzed how weather changes while getting closer to the equator. To accomplish the analysis, data was pulled from the OpenWeatherMap API to assemble a [dataset](Resources/cities.csv) on over 500 cities globally.
 
 After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude. These weather aspects were temperature, humidity, cloudiness, and wind speed. Northern and Southern hemispheres were then split into different datasets and linear regression plots were generated to provide a statistical analysis of the various weather factors.
 
@@ -19,7 +19,7 @@ The structure of the dashboard provides individual pages for each plot and a mea
 ---
 
 ## Website Parameters & Creation Process ##
-The website contains 7 pages total and utilized HTML5, CSS, and Bootstrap. A navigation menu was created at the top of every page, and each page has the name of the site on the left side of the navbar that allows the user to return to the landing page from any page. A dropdown menu on the right of the navbar was created named 'Plots' that provides a link to each individual visualization page. HTML was coded to ensure responsiveness by any media queries.
+The website contains 7 pages total and utilized HTML5, CSS, and Bootstrap. A navigation menu was created at the top of every page, and each page has the name of the site on the left side of the navbar that allows the user to return to the landing page from any page. A dropdown menu on the right of the navbar was created named "Plots" that provides a link to each individual visualization page. HTML was coded to ensure responsiveness by any media queries.
 
 The website includes: 
 * A [landing page](#landing-page) containing:
