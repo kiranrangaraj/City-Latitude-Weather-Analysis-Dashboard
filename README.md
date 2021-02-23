@@ -1,6 +1,10 @@
-# Web-Design-Challenge
-## GitHub Page Link: https://kiranrangaraj.github.io/Web-Design-Challenge/
-Web Design Homework Assignment for Data Analytics Bootcamp - Trilogy Education, Vanderbilt University
+# Global City Latitude Weather Analysis Dashboard 
+## Website: https://kiranrangaraj.github.io/Global-City-Latitude-Weather-Analysis/
+<p align="center">
+   <img src="assets/images/LandingPage.png" width="1000">
+</p>
+
+
 
 
 # Web Visualization Dashboard (Latitude)
@@ -124,3 +128,8 @@ Small screen:
 ![nav menu small screen](Images/nav-sm.png)
 
 ####
+
+---
+
+## Author ##
+Kiran Rangaraj - Data Analytics/Visualization - Vanderbilt University 2020
