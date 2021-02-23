@@ -27,7 +27,7 @@ The website includes:
    * Created a home page with a project summary.
    * Created a sidebar containing preview images of each plot. Clicking an image takes the user to that visualization.
 * Four [visualization pages](#visualization-pages), each containing:
-   * Created a visualization page for each of the four visualizations - Latiude vs Humidity, Cloudiness, Max Temp, & Wind Speed.
+   * Created a visualization page for each of the four visualizations - Latiude vs Max Temp, Humidity, Cloudiness, & Wind Speed.
    * Created a title and heading tag for each visualization page.
    * Added visualization for the selected comparison.
    * Added paragraph describing the plot and its significance.
