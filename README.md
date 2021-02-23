@@ -40,29 +40,29 @@ The website includes:
 
 ## Screenshots ##
 
-#### <a id="landing-page"></a>Landing page
+### <a id="landing-page"></a>Landing page
 
 ![landing page](assets/images/LandingPage.png)
 ￼
-#### <a id="comparisons-page"></a>Comparisons page
+### <a id="comparisons-page"></a>Comparisons page
 
 ![comparison page](assets/images/Comparison.png)
 
-#### <a id="visualization-pages"></a>Four Visualization pages
+### <a id="visualization-pages"></a>Four Visualization pages
 
-##### Humidity
+#### Humidity
 ![Humidity](assets/images/Humidity.png)
 
-##### Cloudiness
+#### Cloudiness
 ![Cloudiness](assets/images/Cloudiness.png)
 
 #### Maximum Temperature
 ![MaxTemp](assets/images/MaxTemp.png)
 
-##### Wind Speed
+#### Wind Speed
 ![WindSpeed](assets/images/WindSpeed.png)
 
-#### <a id="data-page"></a>Data page
+### <a id="data-page"></a>Data page
 
 ![data page](assets/images/Data.png)
 
