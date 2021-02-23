@@ -10,7 +10,7 @@
 
 ## Summary ##
 
-A multipage visualization dashboard website was created using HTML5, CSS3, and Bootstrap to present the results from the City Latitude OpenWeatherMap API Analysis project. The project had analyzed how weather changes while getting closer to the equator. To accomplish the analysis, data was pulled from the OpenWeatherMap API to assemble a [dataset](Resources/cities.csv) on over 500 cities globally.
+A multipage visualization dashboard website was created using HTML5, CSS3, and Bootstrap to present the results from the Impact of Latitude on Weather Analysis project. The project had analyzed how weather changes while getting closer to the equator. To accomplish the analysis, data was pulled from the OpenWeatherMap API to assemble a [dataset](Resources/cities.csv) on over 500 cities globally.
 
 After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude. These weather aspects were temperature, humidity, cloudiness, and wind speed. Northern and Southern hemispheres were then split into different datasets and linear regression plots were generated to provide a statistical analysis of the various weather factors.
 
