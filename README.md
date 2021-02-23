@@ -50,10 +50,17 @@ The website includes:
 
 #### <a id="visualization-pages"></a>Four Visualization pages
 
-![visualizion page_1](Images/Humidity.png)
-![visualizion page_2](Images/Cloudiness.png)
-![visualizion page_3](Images/MaxTemp.png)
-![visualizion page_4](Images/WindSpeed.png)
+##### Humidity
+![Humidity](assets/images/Humidity.png)
+
+##### Cloudiness
+![Cloudiness](assets/images/Cloudiness.png)
+
+#### Maximum Temperature
+![MaxTemp](assets/images/MaxTemp.png)
+
+##### Wind Speed
+![WindSpeed](assets/images/WindSpeed.png)
 
 #### <a id="data-page"></a>Data page
 
