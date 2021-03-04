@@ -69,8 +69,8 @@ The website includes:
 ---
 
 ## Data Sources ##
-* https://github.com/kiranrangaraj/Web-Design-Challenge/blob/master/Resources/cities.csv
-* https://openweathermap.org/api
+* [Cities CSV](https://github.com/kiranrangaraj/Web-Design-Challenge/blob/master/Resources/cities.csv)
+* [Open Weather Map API](https://openweathermap.org/api)
 
 ---
 
@@ -83,5 +83,4 @@ The website includes:
 ---
 
 ## Author ##
-Kiran Rangaraj - Vanderbilt University 2020
-* LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
+Kiran Rangaraj - LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
